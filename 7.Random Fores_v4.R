@@ -4,7 +4,7 @@
 
 #Importing Boston  house pricing data. 
 library(MASS) 
-data(Boston)
+data(Boston) 
 head(Boston)
 dim(Boston)
 #Boston <- read.csv("/Datasets/Housing/Boston.csv")
