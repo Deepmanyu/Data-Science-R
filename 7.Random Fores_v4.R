@@ -3,7 +3,7 @@
 ###########Bagging Example
 
 #Importing Boston  house pricing data. 
-library(MASS)
+library(MASS) 
 data(Boston)
 head(Boston)
 dim(Boston)
