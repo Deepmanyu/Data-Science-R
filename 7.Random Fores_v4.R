@@ -6,7 +6,7 @@
 library(MASS) 
 data(Boston) 
 head(Boston) 
-dim(Boston)
+dim(Boston) 
 #Boston <- read.csv("/Datasets/Housing/Boston.csv")
 
 ##Training and holdout sample
