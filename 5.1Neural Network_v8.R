@@ -126,7 +126,7 @@ base+geom_abline(intercept = intercept3 , slope = slope3, color = "red", size = 
 
 ####Accuracy of the model2
 predicted_values<-round(predict(Emp_Productivity_logit2,type="response"),0)
-conf_matrix<-table(predicted_values,Emp_Productivity_logit2$y)
+conf_matrix<-table(predicted_values,Emp_Productivity_logit2$y) 
 conf_matrix
 
 accuracy<-(conf_matrix[1,1]+conf_matrix[2,2])/(sum(conf_matrix))
