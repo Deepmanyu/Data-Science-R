@@ -129,7 +129,7 @@ predicted_values<-round(predict(Emp_Productivity_logit2,type="response"),0)
 conf_matrix<-table(predicted_values,Emp_Productivity_logit2$y) 
 conf_matrix
 
-accuracy<-(conf_matrix[1,1]+conf_matrix[2,2])/(sum(conf_matrix))
+accuracy<-(conf_matrix[1,1]+conf_matrix[2,2])/(sum(conf_matrix)) 
 accuracy
 accuracy_Sample2<-accuracy 
 
