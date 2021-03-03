@@ -131,7 +131,7 @@ conf_matrix
 
 accuracy<-(conf_matrix[1,1]+conf_matrix[2,2])/(sum(conf_matrix))
 accuracy
-accuracy_Sample2<-accuracy
+accuracy_Sample2<-accuracy 
 
 ###############################################
 #### The Intermediate output and combined model
