@@ -13,7 +13,7 @@ logit_intercept<- coef(logit_model)[1]/(-coef(logit_model)[3])
 
 
 ###The classifier diagram 
-library(ggplot2)
+library(ggplot2) 
 base<-ggplot(Transactions_sample)+geom_point(aes(x=Total_Amount,y=Tr_Count_week,color=factor(Fraud_id),shape=factor(Fraud_id)),size=5)
 base+geom_abline(intercept = logit_intercept , slope = logit_slope, color = "red", size = 2) 
 
