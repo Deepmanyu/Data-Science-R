@@ -8,7 +8,7 @@ logit_model<-glm(Fraud_id~Total_Amount+Tr_Count_week,data=Transactions_sample,fa
 logit_model
 
 ###The classifier slope & intercept
-logit_slope <- coef(logit_model)[2]/(-coef(logit_model)[3])
+logit_slope <- coef(logit_model)[2]/(-coef(logit_model)[3]) 
 logit_intercept<- coef(logit_model)[1]/(-coef(logit_model)[3])
 
 
