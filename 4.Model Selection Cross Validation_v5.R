@@ -2,7 +2,7 @@
 
 setwd("D:/Google Drive/Training/Datasets")
 
-Fiberbits <- read.csv("Fiberbits/Fiberbits.csv")
+Fiberbits <- read.csv("Fiberbits/Fiberbits.csv") 
 names(Fiberbits)
 
 Fiberbits_model_1<-glm(active_cust~.,family=binomial(),data=Fiberbits)
