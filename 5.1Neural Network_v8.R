@@ -159,7 +159,7 @@ Emp_Productivity_logit_combined
 slope4 <- coef(Emp_Productivity_logit_combined)[2]/(-coef(Emp_Productivity_logit_combined)[3])
 intercept4<- coef(Emp_Productivity_logit_combined)[1]/(-coef(Emp_Productivity_logit_combined)[3]) 
 
-
+ 
 library(ggplot2)
 base<-ggplot(Emp_Productivity_raw)+geom_point(aes(x=inter1,y=inter2,color=factor(Productivity),shape=factor(Productivity)),size=5)
 base+geom_abline(intercept = intercept4 , slope = slope4, colour = "red", size = 2) 
