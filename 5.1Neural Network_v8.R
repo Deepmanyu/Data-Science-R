@@ -139,7 +139,7 @@ accuracy_Sample2<-accuracy
 
 #The Two models
 Emp_Productivity_logit 
-Emp_Productivity_logit2
+Emp_Productivity_logit2 
 
 #The two new coloumns
 Emp_Productivity_raw$inter1<-predict(Emp_Productivity_logit,type="response", newdata=Emp_Productivity_raw)
