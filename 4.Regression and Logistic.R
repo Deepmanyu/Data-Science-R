@@ -6,7 +6,7 @@
 
 #Importing Air passengers data
 air <- read.csv("D:\\Google Drive\\Training\\Datasets\\AirPassengers\\AirPassengers.csv")
-dim(air)
+dim(air) 
 names(air)
 head(air)
 
