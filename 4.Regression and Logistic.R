@@ -11,7 +11,7 @@ names(air)
 head(air)
 
 #Correlation between promotion and passengers count
-cor(air$Promotion_Budget,air$Passengers)
+cor(air$Promotion_Budget,air$Passengers) 
 
 
 #Regression Model  promotion and passengers count
