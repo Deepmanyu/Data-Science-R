@@ -15,7 +15,7 @@ cor(air$Promotion_Budget,air$Passengers)
 
 
 #Regression Model  promotion and passengers count
-model1<-lm(Passengers~Promotion_Budget, data=air)
+model1<-lm(Passengers~Promotion_Budget, data=air) 
 summary(model1)
 
 #Potting the Regression line
