@@ -19,7 +19,7 @@ model1<-lm(Passengers~Promotion_Budget, data=air)
 summary(model1)
 
 #Potting the Regression line
-plot(air$Promotion_Budget,air$Passengers,col = "blue", xlab="Age", ylab="Buy") 
+plot(air$Promotion_Budget,air$Passengers,col = "blue", xlab="Age", ylab="Buy")
 abline(model1, lwd = 5, col="red")
 
 #Prediction 
