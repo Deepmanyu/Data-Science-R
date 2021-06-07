@@ -36,7 +36,7 @@ predict(model1, newdata)
 
 #Regression Model inter_metro_flight_ratio and passengers count
 plot(air$Inter_metro_flight_ratio,air$Passengers)
-model2<-lm(Passengers~Inter_metro_flight_ratio, data=air)
+model2<-lm(Passengers~Inter_metro_flight_ratio, data=air) 
 summary(model2)
 
 #No intercept model
