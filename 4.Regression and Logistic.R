@@ -59,7 +59,7 @@ summary(m1)
 m2<-lm(Y~x1+x2+x3+x4+x5+x6, data=adj_sample)
 summary(m2)
 
-m3<-lm(Y~x1+x2+x3+x4+x5+x6+x7+x8, data=adj_sample)
+m3<-lm(Y~x1+x2+x3+x4+x5+x6+x7+x8, data=adj_sample) 
 summary(m3)
 
 ################################################
