@@ -40,7 +40,7 @@ model2<-lm(Passengers~Inter_metro_flight_ratio, data=air)
 summary(model2)
 
 #No intercept model
-#model_noint<-lm(Passengers~0+Promotion_Budget, data=air)
+#model_noint<-lm(Passengers~0+Promotion_Budget, data=air) 
 #summary(model_noint)
 
 ################################################
