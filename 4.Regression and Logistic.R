@@ -31,7 +31,7 @@ newdata = data.frame(Promotion_Budget=517356)
 predict(model1, newdata)
 
 #Prediction 
-newdata = data.frame(Promotion_Budget=700000)
+newdata = data.frame(Promotion_Budget=700000) 
 predict(model1, newdata)
 
 #Regression Model inter_metro_flight_ratio and passengers count
