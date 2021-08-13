@@ -22,7 +22,7 @@ for (i in 2:nrow(Sales))
 Sales
 
 ################################################# 
-###########User Defined Function
+###########User Defined Function 
 
 #Distancie function
 mydistance<-function(x1,y1,x2,y2)
