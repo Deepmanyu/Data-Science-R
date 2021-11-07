@@ -1,4 +1,4 @@
-#Import Data
+#Import Data 
 Ecom_Cust_Survey <- read.csv("D:\\Google Drive\\Training\\Datasets\\Ecom_Cust_Relationship_Management\\Ecom_Cust_Survey.csv")
 
 dim(Ecom_Cust_Survey)
