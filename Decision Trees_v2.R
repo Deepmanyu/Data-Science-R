@@ -7,7 +7,7 @@ names(Ecom_Cust_Survey)
 #Need the library rpart
 library(rpart)
 
-#Building Tree Model 
+#Building Tree Model
 Ecom_Tree<-rpart(Overall_Satisfaction~Region+ Age+ Order.Quantity+Customer_Type+Improvement.Area, method="class", data=Ecom_Cust_Survey, control=rpart.control(minsplit=30))
 Ecom_Tree
 
