@@ -13,7 +13,7 @@ Ecom_Tree
 
 #Plotting the trees
 plot(Ecom_Tree, uniform=TRUE)
-text(Ecom_Tree, use.n=TRUE, all=TRUE)
+text(Ecom_Tree, use.n=TRUE, all=TRUE) 
 
 #A better looking tree
 library(rattle)
