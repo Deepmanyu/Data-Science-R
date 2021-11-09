@@ -11,7 +11,7 @@ library(rpart)
 Ecom_Tree<-rpart(Overall_Satisfaction~Region+ Age+ Order.Quantity+Customer_Type+Improvement.Area, method="class", data=Ecom_Cust_Survey, control=rpart.control(minsplit=30))
 Ecom_Tree
 
-#Plotting the trees 
+#Plotting the trees
 plot(Ecom_Tree, uniform=TRUE)
 text(Ecom_Tree, use.n=TRUE, all=TRUE)
 
