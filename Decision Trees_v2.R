@@ -4,7 +4,7 @@ Ecom_Cust_Survey <- read.csv("D:\\Google Drive\\Training\\Datasets\\Ecom_Cust_Re
 dim(Ecom_Cust_Survey) 
 names(Ecom_Cust_Survey)
 
-#Need the library rpart 
+#Need the library rpart
 library(rpart) 
 
 #Building Tree Model
