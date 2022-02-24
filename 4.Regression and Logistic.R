@@ -83,7 +83,7 @@ exam_model2<-lm(Final_exam_marks~Sem1_Science+Sem2_Science+Sem2_Math, data=final
 summary(exam_model2)  
 
 #Sctter Plot between the predictor variables
-plot(final_exam$Sem1_Math,final_exam$Sem2_Math)
+plot(final_exam$Sem1_Math,final_exam$Sem2_Math) 
 cor(final_exam$Sem1_Math,final_exam$Sem2_Math)
 
 ###############################################
