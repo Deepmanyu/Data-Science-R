@@ -84,7 +84,7 @@ summary(exam_model2)
 
 #Sctter Plot between the predictor variables
 plot(final_exam$Sem1_Math,final_exam$Sem2_Math) 
-cor(final_exam$Sem1_Math,final_exam$Sem2_Math)
+cor(final_exam$Sem1_Math,final_exam$Sem2_Math) 
 
 ###############################################
 ##Multicollinearity detection
