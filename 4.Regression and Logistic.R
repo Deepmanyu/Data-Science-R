@@ -72,7 +72,7 @@ dim(final_exam)
 cat("The names of the variables")
 names(final_exam)
 
-cat("First few observations")
+cat("First few observations") 
 head(final_exam)
 
 exam_model<-lm(Final_exam_marks~Sem1_Science+Sem2_Science+Sem1_Math+Sem2_Math, data=final_exam)
