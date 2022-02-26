@@ -78,7 +78,7 @@ head(final_exam)
 exam_model<-lm(Final_exam_marks~Sem1_Science+Sem2_Science+Sem1_Math+Sem2_Math, data=final_exam)
 summary(exam_model)   
 
-#After dropping Sem1_Math 
+#After dropping Sem1_Math
 exam_model2<-lm(Final_exam_marks~Sem1_Science+Sem2_Science+Sem2_Math, data=final_exam) 
 summary(exam_model2)  
 
