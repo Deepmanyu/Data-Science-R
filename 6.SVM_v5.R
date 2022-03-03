@@ -1,6 +1,6 @@
 Transactions_sample <- read.csv("./Fraud Transaction/Transactions_sample.csv")
 head(Transactions_sample) 
-names(Transactions_sample)
+names(Transactions_sample) 
 
 
 #####Logit model
