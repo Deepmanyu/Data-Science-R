@@ -4,7 +4,7 @@ names(Transactions_sample)
 
 #####Logit model
 logit_model<-glm(Fraud_id~Total_Amount+Tr_Count_week,data=Transactions_sample,family=binomial())
-logit_model
+logit_model 
 
 ###The classifier slope & intercept
 logit_slope <- coef(logit_model)[2]/(-coef(logit_model)[3]) 
