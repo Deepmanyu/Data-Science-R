@@ -155,7 +155,7 @@ ggplot(Emp_Productivity_raw)+geom_point(aes(x=inter1,y=inter2,color=factor(Produ
 Emp_Productivity_logit_combined<-glm(Productivity~inter1+inter2,data=Emp_Productivity_raw, family=binomial())
 Emp_Productivity_logit_combined
  
-####Drawing the Decison boundry
+####Drawing the Decison boundry 
 slope4 <- coef(Emp_Productivity_logit_combined)[2]/(-coef(Emp_Productivity_logit_combined)[3])
 intercept4<- coef(Emp_Productivity_logit_combined)[1]/(-coef(Emp_Productivity_logit_combined)[3]) 
 
